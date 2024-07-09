@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        background-color: #f0f0f0;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      h1 {
+        background-color: #333;
+        color: #fff;
+        margin: 0;
+        padding: 20px;
+        text-align: center;
+      }
+
+      a {
+        background-color: #333;
+        color: #fff;
+        display: block;
+        margin: 20px auto;
+        padding: 20px;
+        text-align: center;
+        text-decoration: none;
+        width: 200px;
+      }
+
+      .crazy-wizard {
+        display: block;
+        font-size: 100px;
+        width: auto;
+        margin: 20px auto;
+        text-align: center;
+        animation: crazy-wizard 2s infinite;
+      }
+
+      .crazy-wizard-container {
+        display: flex;
+        justify-content: center;
+      }
+
+      @keyframes crazy-wizard {
+        0% {
+          transform: rotate(0deg);
+        }
+        
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Amazing Route 🧙‍♂️</h1>
+
+    <span>
+      This is the amazing route. It's amazing because it's different from the regular route.
+    </span>
+    <div class="crazy-wizard-container">
+      <span class="crazy-wizard">
+        🧙‍♂️
+      </span>
+    </div>
+
+    <a href="/routes/another-route/regular-route">
+      Go to Regular Route
+    </a>
+  </body>
+</html>
